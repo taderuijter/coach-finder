@@ -13,7 +13,6 @@ import store from '../store/index.js'
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-
     // Adds a redirect for the homepage to /coaches
     // Register homepage route /coaches
     { path: '/', redirect: '/coaches' },
