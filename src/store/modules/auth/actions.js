@@ -22,9 +22,9 @@ export default {
     const mode = payload.mode
 
     // Get url for signup or login
-    let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API]'
+    let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCtrw7kdkzJesxFdNE8B_1YWH4jH-VmjJ8'
     if(mode === 'signup'){
-      url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API]'
+      url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCtrw7kdkzJesxFdNE8B_1YWH4jH-VmjJ8'
     }
 
     // HTTP request to firebase with a url
